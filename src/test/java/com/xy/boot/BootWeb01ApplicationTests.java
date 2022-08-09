@@ -8,6 +8,7 @@ class BootWeb01ApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("第二次提交");
     }
 
 }
