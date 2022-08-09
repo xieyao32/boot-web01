@@ -1,0 +1,12 @@
+spring:
+#  mvc:
+#    static-path-pattern: /res/**
+
+
+  web:
+    resources:
+      static-locations: classpath:/myres/
+  mvc:
+    hiddenmethod:       #需要手动开启，来实现delete和put请求
+      filter:
+        enabled: true

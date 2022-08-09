@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/user" method="get">
+    <input type="submit" value="get">
+</form>
+<br>
+
+<form action="/user" method="post">
+    <input type="submit" value="post">
+</form>
+<br>
+
+<form action="/user" method="post">
+    <input type="hidden" name="_method" value="put"/>
+    <input type="submit" value="put"/>
+</form>
+<br>
+
+<form action="/user" method="post">
+    <input type="hidden" name="_method" value="delete" />
+    <input type="submit" value="delete"/>
+</form>
+<br>
+
+</body>
+</html>
